@@ -1,0 +1,9 @@
+*/node_modules/*
+*/bin/**
+packages/*
+*.dll
+*.cache
+.vs/**
+*/results.xml
+*/obj/**
+*/bin/*/Release/*

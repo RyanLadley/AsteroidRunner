@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/SpaceShip.png</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/StarField.jpg</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/Projectiles.png</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/AirThrust.wav</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/Rocket.wav</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/LaserShot.wav</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/Meditation.mp3</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/Asteroid.png</File>
+    <File>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/Asteroid2.png</File>
+  </SourceFiles>
+</SourceFileCollection>
