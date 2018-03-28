@@ -28,7 +28,7 @@ namespace AsteroidRunner.Utilities.Collision
 
                         var collisionLocation = _texturesCollide(objectA, objectB);
                         if (collisionLocation.HasValue)
-                        {
+                        {                            
                             gameObjects[i].ProcessCollision(gameObjects[j]);
                             gameObjects[j].ProcessCollision(gameObjects[i]);
                         }
@@ -56,7 +56,7 @@ namespace AsteroidRunner.Utilities.Collision
             var rotation = gameObject.Direction;
             var scale = gameObject.Scale;
             
-            return  Matrix.CreateTranslation(-gameObject.Origin.X, -gameObject.Origin.Y, 0) *
+            return   Matrix.CreateTranslation(-gameObject.Origin.X, -gameObject.Origin.Y, 0) *
                     Matrix.CreateRotationZ(rotation) *
                     Matrix.CreateScale(scale) *
                     Matrix.CreateTranslation(location.X, location.Y, 0);

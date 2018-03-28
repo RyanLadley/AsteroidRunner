@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/Meditation.mp3</SourceFile>
-  <SourceTime>2018-03-20T19:44:34.0546539-06:00</SourceTime>
-  <DestFile>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/Meditation.xnb</DestFile>
-  <DestTime>2018-03-20T19:50:59.428736-06:00</DestTime>
+  <SourceFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/Meditation.mp3</SourceFile>
+  <SourceTime>2018-03-24T13:42:13.1538503-06:00</SourceTime>
+  <DestFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/Meditation.xnb</DestFile>
+  <DestTime>2018-03-24T13:43:11.1163237-06:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2017-03-01T08:05:36-07:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/Meditation.wma</string>
+    <string>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/Meditation.wma</string>
   </BuildOutput>
 </PipelineBuildEvent>

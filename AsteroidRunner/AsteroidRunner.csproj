@@ -48,6 +48,7 @@
     <Compile Include="GameObjects\GameObject.cs" />
     <Compile Include="GameObjects\GameObjectType.cs" />
     <Compile Include="GameObjects\ObjectSide.cs" />
+    <Compile Include="GameObjects\Primitives\Rectangle.cs" />
     <Compile Include="Utilities\Collision\CollisionDetector.cs" />
     <Compile Include="Utilities\Collision\CollisionObject.cs" />
     <Compile Include="Utilities\Factories\AsteroidFactory.cs" />

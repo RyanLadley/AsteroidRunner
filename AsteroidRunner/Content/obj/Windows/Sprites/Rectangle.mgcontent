@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/Projectiles.png</SourceFile>
-  <SourceTime>2018-03-24T20:00:19.0636272-06:00</SourceTime>
-  <DestFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sprites/Projectiles.xnb</DestFile>
-  <DestTime>2018-03-24T20:02:08.0864675-06:00</DestTime>
+  <SourceFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/Sprites/Rectangle.png</SourceFile>
+  <SourceTime>2018-03-27T11:28:19.7411802-06:00</SourceTime>
+  <DestFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sprites/Rectangle.xnb</DestFile>
+  <DestTime>2018-03-27T11:28:33.0710192-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T08:05:36-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

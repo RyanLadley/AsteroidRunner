@@ -21,7 +21,16 @@ namespace AsteroidRunner.GameObjects.Projectiles
         {
             _timeAlive = 0;
         }
-        
+
+        public override void ProcessCollision(IGameObject collidedObject)
+        {
+            switch (collidedObject.Type)
+            {
+                case GameObjectType.Asteroid:
+                    _expired = true;
+                    break;
+            }
+        }
 
         public override void Update(KeyboardState keyState)
         {
@@ -31,5 +40,7 @@ namespace AsteroidRunner.GameObjects.Projectiles
             if (_timeAlive > _lifespan)
                 _expired = true;
         }
+        
+
     }
 }

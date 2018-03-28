@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using AsteroidRunner.GameObjects.Primitives;
 
 namespace AsteroidRunner.GameObjects
 {
@@ -18,7 +19,7 @@ namespace AsteroidRunner.GameObjects
         public Texture2D Texture { get { return _texture; } }
 
 
-        public Rectangle HitBox { get { return new Rectangle((int)Math.Ceiling(_location.X), (int)Math.Ceiling(_location.Y), _hitBoxDimensions, _hitBoxDimensions); } }
+        public Rectangle HitBox { get { return new Rectangle((int)Math.Ceiling(_location.X - _hitBoxDimensions/2), (int)Math.Ceiling(_location.Y- _hitBoxDimensions / 2), _hitBoxDimensions, _hitBoxDimensions); } }
         public int _hitBoxDimensions;
 
         public float Scale { get { return _drawScale; } }
@@ -61,7 +62,7 @@ namespace AsteroidRunner.GameObjects
             _rotationSpeed = rotationSpeed;
             
             _drawScale = scale;
-            _origin = new Vector2(_textureRectangle.Width / 2, _textureRectangle.Height / 2);
+            _origin = new Vector2((float)_textureRectangle.Width / 2, (float)_textureRectangle.Height / 2);
 
             _width = _textureRectangle.Width * _drawScale;
             _height = _textureRectangle.Height * _drawScale;
@@ -71,9 +72,12 @@ namespace AsteroidRunner.GameObjects
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
+            //RectanglePrimative.Draw(spriteBatch, this.HitBox);
             spriteBatch.Begin();
             spriteBatch.Draw(_texture, _location, _textureRectangle, _color, _direction, _origin, _drawScale, SpriteEffects.None, 0);
             spriteBatch.End();
+
+
         }
 
         public virtual void Update(KeyboardState keyState)
@@ -109,6 +113,9 @@ namespace AsteroidRunner.GameObjects
                     colors2d[x, y] = colors1d[x + y * _textureRectangle.Width];
             }
 
+
+            if (Type == GameObjectType.Projectile)
+                return colors2d;
             return colors2d;
         }
 

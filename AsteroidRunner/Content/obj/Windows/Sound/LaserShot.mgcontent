@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/LaserShot.wav</SourceFile>
-  <SourceTime>2018-03-20T19:40:44.4338521-06:00</SourceTime>
-  <DestFile>E:/Programing/Projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/LaserShot.xnb</DestFile>
-  <DestTime>2018-03-20T19:40:51.7546446-06:00</DestTime>
+  <SourceFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/Sound/LaserShot.wav</SourceFile>
+  <SourceTime>2018-03-24T13:42:13.0646094-06:00</SourceTime>
+  <DestFile>C:/Users/leu-lap/Desktop/Development/projects/NET/AsteroidRunner/AsteroidRunner/Content/bin/Windows/Sound/LaserShot.xnb</DestFile>
+  <DestTime>2018-03-24T13:43:08.4432358-06:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-03-01T08:05:36-07:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

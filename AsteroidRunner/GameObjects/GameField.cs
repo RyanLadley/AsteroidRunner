@@ -58,7 +58,7 @@ namespace AsteroidRunner.GameObjects
             AddPlayer(player);
             
             asteroidFactory.AddAsteroids(3);
-            asteroidFactory.BeginIntervaledProduction(100);
+            asteroidFactory.BeginIntervaledProduction(5000);
         }
 
         public static GameField Initiate(ContentManager content)
@@ -99,12 +99,12 @@ namespace AsteroidRunner.GameObjects
                 }
             }
 
-            //if (FieldObjects[_playerIndex].IsExpired)
-            //{
-            //    Reset();
-            //}
+            if (FieldObjects[_playerIndex].IsExpired)
+            {
+                Reset();
+            }
 
-            foreach(var factory in _gameObjectFactories)
+            foreach (var factory in _gameObjectFactories)
             {
                 foreach (var gameObject in factory.RetrieveObjects())
                 {

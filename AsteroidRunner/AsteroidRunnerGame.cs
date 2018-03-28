@@ -55,7 +55,7 @@ namespace AsteroidRunner
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             // TODO: use this.Content to load your game content here
 
-            
+            RectanglePrimative.LoadTexture(Content);
             ProjectileFactory.Initiate(Content);
             AsteroidFactory.Initiate(Content);
 
